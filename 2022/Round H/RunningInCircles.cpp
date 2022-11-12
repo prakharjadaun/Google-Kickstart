@@ -31,7 +31,7 @@ int main()
             }
             else
             {
-                val = abs(val - remaining);
+                val = val - remaining;
                 if(val>=len)
                 {
                     numLaps += val/len;
